@@ -1,5 +1,5 @@
 const path = require('path');
-const Todo = require('../models/Todo');
+const Todo = require('../methods/Todo');
 
 const createTask = async (req, res) => {
   try {
